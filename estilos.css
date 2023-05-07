@@ -1,0 +1,515 @@
+* {
+	margin: 0;
+	padding: 0;
+  } 
+
+  .texto{
+  margin: 0%;
+  margin-top: 600px;
+  font-size: 30px;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.);
+  z-index: 1;
+  font-family: Arial, sans-serif;
+  margin-bottom: 450px;
+  padding: 60px;
+  font-weight: bold 900;
+  text-shadow: 2px 2px 3px rgb(255, 255, 255);
+  background-color: rgba(143, 143, 143, 0.4);
+  padding-top: 1px;
+
+}
+
+.abajo{
+	margin: 0%;
+	margin-top: 800px;
+	font-size: 30px;
+	position: relative;
+	background-color: rgba(0, 0, 0, 0.);
+	z-index: 1;
+	font-family: Arial, sans-serif;
+	margin-bottom: 450px;
+	padding: 60px;
+	font-weight: bold 900;
+	text-shadow: 2px 2px 3px rgb(255, 255, 255);
+	background-color: rgba(143, 143, 143, 0.4);
+	padding-top: 1px;
+  }
+
+
+header {
+	margin: 0px;
+	height: 10px;
+	width: 50px;
+	height: 50px;
+	object-fit: cover;
+	font-family: Arial, sans-serif;
+	background-color: #f2f2f2;
+	background-image: url("https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2021/09/mujer-haciendo-ejercicio-gimnasio-2458823.jpg");
+	position: absolute;
+		top: 0;
+		left: 0;
+}
+
+ 
+
+.title {
+	margin: 0;
+	margin-top: 16px;
+	font-size: 36px;
+	text-align: center;
+	background-color:aqua;
+}
+
+.conteiner {
+	width: 100vw;
+	height: 500px;
+	/*con los backgroud de abajo podes poder imagenes de fondo con direccion url //dato a tenes en cuenta las imagenes deben termibar en(gif,jpen,jpg,png)*/
+	background-image: url("https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2021/09/mujer-haciendo-ejercicio-gimnasio-2458823.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position-y: center;
+	margin-top: 45px;
+  }
+
+/* imagen debajo de encabezado */
+.imagen-de-encabezado {
+	position: absolute;
+	top: 10px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(255, 255, 255, 0.5);
+  }
+  
+  .imagen-de-fondo img {
+	width: 100%;
+	height: auto;
+	opacity: 0.8;
+  }
+  
+nav {
+	background-color: #666;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+	height: 30px;
+	position:fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	z-index: 10;
+	margin-bottom: 20px;
+
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+	margin: 0 10px;
+	font-size: 24px;
+}
+
+ul {
+	list-style: none;
+  }
+
+section {
+	padding: 20px;
+	margin: 20px;
+	background-color: #fff;
+	border-radius: 5px;
+	box-shadow: 0px 0px 5px #888;
+}
+
+section h2 {
+	margin: 0 0 10px 0;
+	font-size: 24px;
+}
+
+section p {
+	margin: 0;
+	font-size: 36px;
+	line-height: 1.5;
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+
+}
+.cuerpo{
+    background-color: rgb(212, 9, 9);
+    font-size: 18px;
+  }
+
+ul {display: flex;
+	flex-direction: row;
+	position: absolute;
+	top:0;
+	right: 0;
+	padding: 15px
+
+}
+
+.pepe {margin-top: 50px;
+	background-color:aqua;
+	margin-left: 0;
+	margin: 0;
+	margin-right: 0;
+}
+
+/* imagen pagina productos*/
+
+.producto1 {
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #00ffdd;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+	width: 300px;
+  height: 200px;
+
+}
+
+.producto1 img {
+	width: 200px;
+	height: 200px;
+	margin: 10px;
+	object-fit: cover;
+	object-position: center center;
+	border: 1px solid #ccc;}
+
+	.producto2 {
+		display: flex;
+		flex-wrap: wrap;
+		background-color: #ad3333;
+		justify-content: center;
+		align-items: center;
+		padding: 10px;width: 300px;
+		height: 200px;
+	}
+	
+	.producto2 img {
+		width: 200px;
+		height: 200px;
+		margin: 10px;
+		object-fit: cover;
+		object-position: center center;
+		border: 1px solid #ffffff;}
+
+		.producto3 {
+			display: flex;
+			flex-wrap: wrap;
+			background-color: #ff1596;
+			justify-content: center;
+			align-items: center;
+			padding: 10px;
+			width: 300px;
+            height: 200px;
+		}
+		
+		.producto3 img {
+			width: 200px;
+			height: 200px;
+			margin: 10px;
+			object-fit: cover;
+			object-position: center center;
+			border: 1px solid #1723c4;}
+		
+			.producto4 {
+				display: flex;
+				flex-wrap: wrap;
+				background-color: #7a65f1;
+				justify-content: center;
+				align-items: center;
+				padding: 10px;
+				width: 300px;
+                height: 200px;
+			}
+			
+			.producto4 img {
+				width: 200px;
+				height: 200px;
+				margin: 10px;
+				object-fit: cover;
+				object-position: center center;
+				border: 1px solid #771616;}
+
+				.producto5 {
+					display: flex;
+					flex-wrap: wrap;
+					background-color: #a53e47;
+					justify-content: center;
+					align-items: center;
+					padding: 10px;
+					width: 300px;
+                    height: 200px;
+				}
+				
+				.producto5 img {
+					width: 200px;
+					height: 200px;
+					margin: 10px;
+					object-fit: cover;
+					object-position: center center;
+					border: 1px solid #d80eeb;}
+				
+					.producto6 {
+						display: flex;
+						flex-wrap: wrap;
+						background-color: #8b8585;
+						justify-content: center;
+						align-items: center;
+						padding: 10px;
+						width: 300px;
+                        height: 200px;
+					}
+					
+					.producto6 img {
+						width: 200px;
+						height: 200px;
+						margin: 10px;
+						object-fit: cover;
+						object-position: center center;
+						border: 1px solid #dfcb1d;}
+
+
+						.cuadrado {
+							width: 800px;
+							height: 800px;
+							background-color: rgba(255, 0, 0, 0.575);
+
+						  }
+h4{background-color:rgb(111, 253, 111);
+	margin-top: 30px;
+	font-size: 30px;
+
+}
+
+* {
+	margin: 0;
+	padding: 0;
+  } 
+
+  h3{background-color: aqua;
+	width: 500%;
+    margin: 0%;
+    margin-top: 5px;
+    font-size: 30px;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.);
+    z-index: 1;
+    font-family: Arial, sans-serif;
+    margin-bottom: 450px;
+    padding: 60px;
+    font-weight: bold 900;
+    text-shadow: 2px 2px 3px rgb(255, 255, 255);
+    padding-top: 50px;
+  }
+
+  .my-button {
+	background-color: #4CAF50;
+	color: white;
+	padding: 12px 24px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+ 
+  .texto{
+  margin: 0%;
+  margin-top: 600px;
+  font-size: 30px;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.);
+  z-index: 1;
+  font-family: Arial, sans-serif;
+  margin-bottom: 450px;
+  padding: 60px;
+  font-weight: bold 900;
+  text-shadow: 2px 2px 3px rgb(255, 255, 255);
+  background-color: rgba(143, 143, 143, 0.4);
+  padding-top: 1px;
+
+}
+
+.abajo{
+	margin: 0%;
+	margin-top: 800px;
+	font-size: 30px;
+	position: relative;
+	background-color: rgba(0, 0, 0, 0.);
+	z-index: 1;
+	font-family: Arial, sans-serif;
+	margin-bottom: 450px;
+	padding: 60px;
+	font-weight: bold 900;
+	text-shadow: 2px 2px 3px rgb(255, 255, 255);
+	background-color: rgba(143, 143, 143, 0.4);
+	padding-top: 1px;
+  }
+
+
+header {
+	margin: 0px;
+	height: 10px;
+	width: 50px;
+	height: 50px;
+	object-fit: cover;
+	font-family: Arial, sans-serif;
+	background-color: #f2f2f2;
+	background-image: url("https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2021/09/mujer-haciendo-ejercicio-gimnasio-2458823.jpg");
+	position: absolute;
+		top: 0;
+		left: 0;
+}
+
+ 
+
+.title {
+	margin: 0;
+	margin-top: 16px;
+	font-size: 36px;
+	text-align: center;
+	background-color:aqua;
+}
+
+.conteiner {
+	width: 100vw;
+	height: 500px;
+	/*con los backgroud de abajo podes poder imagenes de fondo con direccion url //dato a tenes en cuenta las imagenes deben termibar en(gif,jpen,jpg,png)*/
+	background-image: url("https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2021/09/mujer-haciendo-ejercicio-gimnasio-2458823.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position-y: center;
+	margin-top: 45px;
+  }
+
+/* imagen debajo de encabezado */
+.imagen-de-encabezado {
+	position: absolute;
+	top: 10px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(255, 255, 255, 0.5);
+  }
+  
+  .imagen-de-fondo img {
+	width: 100%;
+	height: auto;
+	opacity: 0.8;
+  }
+  
+nav {
+	background-color: #666;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+	height: 30px;
+	position:fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	z-index: 10;
+	margin-bottom: 20px;
+
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+	margin: 0 10px;
+	font-size: 24px;
+}
+
+ul {
+	list-style: none;
+  }
+
+section {
+	padding: 20px;
+	margin: 20px;
+	background-color: #fff;
+	border-radius: 5px;
+	box-shadow: 0px 0px 5px #888;
+}
+
+section h2 {
+	margin: 0 0 10px 0;
+	font-size: 24px;
+}
+
+section p {
+	margin: 0;
+	font-size: 36px;
+	line-height: 1.5;
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+
+}
+.cuerpo{
+    background-color: rgb(212, 9, 9);
+    font-size: 18px;
+  }
+
+ul {display: flex;
+	flex-direction: row;
+	position: absolute;
+	top:0;
+	right: 0;
+	padding: 15px
+
+}
+
+
+
+
+
+.waves-border {
+	border: 2px solid #000;
+	border-radius: 10px;
+	padding: 20px;
+	position: relative;
+  }
+  
+  .waves-border:before {
+	content: "";
+	position: absolute;
+	top: -5px;
+	left: -5px;
+	right: -5px;
+	bottom: -5px;
+	background-image: radial-gradient(circle at 30% 107%, #ffffff, transparent 58%),
+	  radial-gradient(circle at 70% 17%, #ffffff, transparent 59%);
+	background-position: 0 0;
+	background-size: 30px 30px;
+	animation: wave 7s linear infinite;
+	border-radius: 10px;
+	z-index: -1;
+  }
+  
+  @keyframes wave {
+	0% {
+	  background-position: 0 0;
+	}
+	100% {
+	  background-position: 60px 60px;
+	}
+  }
