@@ -418,13 +418,28 @@ ul {display: flex;
 	border: none;
 }
 
+/*telefonod de contacto*/
+
 .telefono img {
 	max-height: 100%;
 	max-width: 100%;
 	object-fit: contain;
-	margin: 10px;
+	margin: 100px;
 	border: none;
 }
+
+/*mail de contacto*/
+
+.telefono img {
+	max-height: 100%;
+	max-width: 100%;
+	object-fit: contain;
+	margin: 100px;
+	border: none;
+}
+
+.flex-contactos{
+	margin-top: 50px;}
 
 * {
 	margin: 0;
