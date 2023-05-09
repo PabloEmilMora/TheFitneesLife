@@ -59,7 +59,7 @@ header {
   }
 
 .texto-alumnos{
-	background-color: rgb(0, 131, 238);
+	background-color: rgba(107, 96, 96, 0.5);
 	margin: 0%;
 	height: 15vh;
 	display: inline-block;
@@ -632,3 +632,34 @@ ul {display: flex;
 	width: 100%;
 	
   }
+
+
+  .flex-suscripcion {
+	display: flex;
+	flex-direction: row-reverse;
+	text-align: left;
+	margin: 0px;
+	text-align: left;
+}
+
+.premium {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+	height: 50px;
+	border: none;
+}
+
+
+  /*le agrego un hover a mi nav bar */
+
+  nav ul li:hover {
+	background-color: rgba(238, 130, 238, 0.5);
+	border-radius: 10px;
+}
+
+
