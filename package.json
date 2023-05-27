@@ -1,14 +1,11 @@
 {
-  "name": "y",
+  "name": "the-fitness-life-style_mora-pablo",
   "version": "1.0.0",
-  "description": "clear",
+  "description": "este es un proyecyo de practica html y css del curso de **desarrollo web**.",
   "main": "index.js",
   "scripts": {
-    "build-sass": "sass ./sass/main.scss  ./css/main.css -w"
+    "build-sass": "sass ./sass/main.scss ./css/main.css -w --no-source-map"
   },
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "sass": "^1.62.1"
-  }
+  "license": "ISC"
 }

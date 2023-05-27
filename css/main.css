@@ -1,6 +1,11 @@
-@import "../css/main.css";
 .navbar {
   background-color: black;
 }
 
-/*# sourceMappingURL=main.css.map */
+h2 {
+  font-size: 20px;
+}
+
+h3 {
+  font-weight: 100;
+}
