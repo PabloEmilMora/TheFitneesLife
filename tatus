@@ -1,0 +1,59 @@
+[33mcommit fe005440f0cd9f3555c7f898367154733609d7e3[m[33m ([m[1;36mHEAD[m[33m, [m[1;31morigen/main[m[33m, [m[1;32msaas[m[33m, [m[1;32mnombre_de_la_ramaintento-fallido-sass[m[33m, [m[1;32mmain[m[33m)[m
+Author: Pablo Mora <pabloemilmora@gmail.com>
+Date:   Tue May 9 22:07:45 2023 -0300
+
+    ajuste de navbar
+
+[33mcommit fb4e9f242b005d1423e3aea1e22bd09136dc9037[m
+Author: Pablo Mora <pabloemilmora@gmail.com>
+Date:   Tue May 9 21:59:43 2023 -0300
+
+    agregado sombra ul
+
+[33mcommit ae3735fc3fb41759947a6c4e87d0b06cdf5aaafd[m
+Author: Pablo Mora <pabloemilmora@gmail.com>
+Date:   Tue May 9 21:45:19 2023 -0300
+
+    agregada media queri a contactos
+
+[33mcommit 27c71a53ec668e8acd418bca44ca6bc7fd32f255[m
+Author: Pablo Mora <pabloemilmora@gmail.com>
+Date:   Tue May 9 20:54:37 2023 -0300
+
+    agregado README.md
+
+[33mcommit 81c3d1f939199e1b4c261d82cd22ed58cdb266ae[m
+Author: Pablo Mora <pabloemilmora@gmail.com>
+Date:   Tue May 9 18:47:56 2023 -0300
+
+    faltan las medias
+
+[33mcommit 87551053132e55278a029b6248f72c4b75f93083[m
+Author: Pablo Mora <pabloemilmora@gmail.com>
+Date:   Mon May 8 19:16:12 2023 -0300
+
+    contactos agregado
+
+[33mcommit 21a97db2119d7e638ef4ab80e42759fa67657efb[m
+Author: Pablo Mora <pabloemilmora@gmail.com>
+Date:   Sun May 7 17:17:48 2023 -0300
+
+    carrusel terminado
+
+[33mcommit 24e9ddb88483e2151733284e90bf39c08ee83660[m
+Author: Pablo Mora <pabloemilmora@gmail.com>
+Date:   Sun May 7 17:11:13 2023 -0300
+
+    reparado el carrusel
+
+[33mcommit 6bbc81e78b9c47796da2d682349981957bf982cb[m
+Author: Pablo Mora <pabloemilmora@gmail.com>
+Date:   Sun May 7 15:44:11 2023 -0300
+
+    agregado el archivo .gitignore
+
+[33mcommit 903b9f5659b92c05aaa83f458409af2ce36d3f4f[m
+Author: Pablo Mora <pabloemilmora@gmail.com>
+Date:   Sun May 7 01:37:08 2023 -0300
+
+    cambio de margen
