@@ -71,7 +71,7 @@ nav {display: flex;
 		display: flex;
 
 	li{
-		&:hover{background-color: rgba(238, 130, 238, 0.5);
+		&:hover{background-color:$colorsombra;
 			border-radius: 10px;}
 	}	
 	  }

@@ -1,7 +1,65 @@
 * {
-	margin: 0;
-	padding: 0;
-  } 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import "./modules/variables";
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: $colorsecundario;
+}
 
 
-  body{background-color: aqua;}
+
+.contenedorproductos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  width: 100%;
+  padding: 4rem;
+  gap: 1rem; /* Agrega un espacio de 1rem entre las imágenes */
+
+  section {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem;
+    cursor: pointer;
+    overflow: hidden;
+
+    figure {
+      position: relative;
+      transition: all 0.4s;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: black;
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+
+      &:hover {
+        transform: scale(1.1);
+      }
+
+      &:hover::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: $colorsombra;
+        opacity: 0.5;
+      }
+    }
+  }
+}
