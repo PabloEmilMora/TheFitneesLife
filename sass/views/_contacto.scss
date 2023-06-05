@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  @import"./modules/variables";
+
+
+// Variables
+$color4-color: #ff4081;
+$scolor5-color: #4caf50;
+$color6-color: #f7f7f7;
+
+// Estilos generales
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: $color6-color;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 24px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+h4 {
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: $color4-color;
+}
+
+.contactos {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.flex-contactos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.telefono {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  margin-right: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.mail {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  margin-left: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.formulario {
+  margin-top: 20px;
+}
+
+.formulario label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.formulario input,
+.formulario textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.formulario input[type="submit"] {
+ background-color: #e21212;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.formulario input[type="submit"]:hover {
+  background-color: darken($color-5, 10%);
+}
+
+.asesoramiento {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.footer {
+  margin-top: 20px;
+  text-align: center;
+  color: #999;
+}

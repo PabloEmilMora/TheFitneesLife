@@ -5,3 +5,107 @@
 
   @import"./modules/variables";
   
+
+  $color-rosa: rgba(161, 153, 154, 0.8);
+  $color-rojo: #FF0000;
+  $color-verde: #00FF00;
+  
+h3{margin-top: 500px;
+
+}
+
+  body {
+    background-color: $color-rosa;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    text-align: center;
+    padding: 20px;
+    margin-top: 300px;
+  
+    .welcome-box {
+      margin-top: 200px;
+      background-color: coral;
+      padding: 10px;
+      border-radius: 4px;
+      margin: 150px;
+      max-width: 500px;
+  
+      h3 {
+        color: rgb(0, 0, 0);
+        font-size: 24px;
+        margin: 0;
+      }
+    }
+  }
+  
+  nav {
+    background-color: #333;
+    padding: 10px;
+  
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+  
+      li {
+        margin: 0 10px;
+  
+        a {
+          color: white;
+          text-decoration: none;
+  
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+  
+  .flex-suscripcion {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  
+    .suscripcion,
+    .premium {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: transform 0.2s ease-in-out;
+  
+      &:hover {
+        transform: scale(1.05);
+      }
+  
+      span {
+        color: white;
+        font-weight: bold;
+        margin-left: 10px;
+      }
+    }
+  
+    .suscripcion {
+      background-color: $color-rojo;
+      margin-right: 5px;
+    }
+  
+    .premium {
+      background-color: $color-verde;
+      margin-left: 5px;
+    }
+  }
+  
+  footer {
+    background-color: #333;
+    padding: 20px
+  }
