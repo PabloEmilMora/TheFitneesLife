@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -6,114 +7,135 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Roboto", sans-serif;
   margin: 0;
   padding: 0;
+  background-color: #fff;
+  color: #333;
 }
 
-.container {
-  max-width: 1200px;
-  margin: 50px auto;
-  padding: 20px;
-  background-color: #f7f7f7;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-}
-
-h1 {
-  font-size: 24px;
+header {
+  background-color: #3483fa;
+  color: #000000;
   text-align: center;
+  padding: 20px;
+}
+header h1 {
+  margin-top: 50px;
+}
+
+nav {
+  background-color: #f5f5f5;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  margin: 10px;
+}
+nav ul li a {
+  color: #3483fa;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.contactos {
+  background-color: #3483fa;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
   margin-top: 20px;
 }
 
-h4 {
+.flex-contactos {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 20px;
+}
+.flex-contactos .telefono {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
   font-size: 18px;
-  text-align: center;
-  margin-bottom: 20px;
+  font-weight: bold;
+  color: #000;
+}
+.flex-contactos .telefono img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.flex-email {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 40px;
+  padding-top: 40px;
+}
+.flex-email .email {
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.flex-email .email span {
+  background-color: #ffb71d;
+  color: #000;
+}
+.flex-email .mail {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.flex-email .mail img {
+  width: 20px;
+  height: 20px;
+  margin-bottom: 10px;
+}
+.flex-email .mail form {
+  width: 300px;
+  margin-top: 10px;
+}
+.flex-email .mail form label {
+  display: block;
+  margin-bottom: 5px;
+}
+.flex-email .mail form input,
+.flex-email .mail form textarea {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.flex-email .mail form input[type=submit] {
+  background-color: #3483fa;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 ul {
   list-style-type: none;
   padding: 0;
-  margin: 0;
+  margin: 20px;
+  font-size: 18px;
 }
 
-li {
-  margin-bottom: 5px;
-}
-
-a {
-  text-decoration: none;
-  color: #ff4081;
-}
-
-.contactos {
-  background-color: white;
-  padding: 20px;
-  border-radius: 5px;
-  margin-bottom: 20px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-}
-
-.flex-contactos {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.telefono {
-  background-color: white;
-  padding: 20px;
-  border-radius: 5px;
-  margin-right: 10px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-}
-
-.mail {
-  background-color: white;
-  padding: 20px;
-  border-radius: 5px;
-  margin-left: 10px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-}
-
-.formulario {
-  margin-top: 20px;
-}
-
-.formulario label {
-  display: block;
-  margin-bottom: 5px;
-}
-
-.formulario input,
-.formulario textarea {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-.formulario input[type=submit] {
-  background-color: #e21212;
-  color: white;
-  border: none;
-  cursor: pointer;
-}
-
-.formulario input[type=submit]:hover {
-  background-color: #3d8b40;
-}
-
-.asesoramiento {
-  margin-top: 20px;
-  text-align: center;
-}
-
-.footer {
-  margin-top: 20px;
-  text-align: center;
-  color: #999;
+footer {
+  background-color: #f5f5f5;
 }
 
 * {

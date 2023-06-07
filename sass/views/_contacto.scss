@@ -7,119 +7,157 @@
   @import"./modules/variables";
 
 
-// Variables
-$color4-color: #ff4081;
-$scolor5-color: #4caf50;
-$color6-color: #f7f7f7;
+  @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
-// Estilos generales
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-}
+  $primary-color: #3483fa;
+  $secondary-color: #f5f5f5;
+  $highlight-color: #ff7f50;
+  $divider-color: #000;
+  
+  body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #333;
 
-.container {
-  max-width: 1200px;
-  margin: 50px auto;
-  padding: 20px;
-  background-color: $color6-color;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-}
+  }
+  
+  header {
+    background-color: $primary-color;
+    color: #000000;
+    text-align: center;
+    padding: 20px;
 
-h1 {
-  font-size: 24px;
-  text-align: center;
-  margin-top: 20px;
-}
+    h1 {margin-top: 50px;}
+  }
+  
+  nav {
+    background-color: $secondary-color;
+  
+    ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+  
+      li {
+        margin: 10px;
+  
+        a {
+          color: $primary-color;
+          text-decoration: none;
+          font-weight: bold;
+  
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+  
+  .contactos {
+    background-color: $primary-color;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .flex-contactos {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 20px;
+  
+    .telefono {
+      display: flex;
+      align-items: center;
+      margin-right: 20px;
+      font-size: 18px;
+      font-weight: bold;
+      color: #000;
+  
+      img {
+        width: 20px;
+        height: 20px;
+        margin-right: 5px;
+      }
+    }
+  }
+  
+  .flex-email {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 40px;
+    padding-top: 40px;
+  
+    .email {
+      font-size: 18px;
+      color: #fff;
+      margin-bottom: 10px;
 
-h4 {
-  font-size: 18px;
-  text-align: center;
-  margin-bottom: 20px;
-}
+      span {background-color: #ffb71d;
+      color: #000;}
+    }
+  
+    .mail {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+  
+      img {
+        width: 20px;
+        height: 20px;
+        margin-bottom: 10px;
+      }
+  
+      form {
+        width: 300px;
+        margin-top: 10px;
+  
+        label {
+          display: block;
+          margin-bottom: 5px;
+        }
+  
+        input,
+        textarea {
+          width: 100%;
+          padding: 5px;
+          margin-bottom: 10px;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+        }
+  
+        
+        input[type="submit"] {
+          background-color: $primary-color;
+          color: #fff;
+          border: none;
+          cursor: pointer;
+          padding: 10px;
+          font-size: 16px;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px;
+    font-size: 18px;
+  }
 
-ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
-li {
-  margin-bottom: 5px;
-}
-
-a {
-  text-decoration: none;
-  color: $color4-color;
-}
-
-.contactos {
-  background-color: white;
-  padding: 20px;
-  border-radius: 5px;
-  margin-bottom: 20px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-}
-
-.flex-contactos {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.telefono {
-  background-color: white;
-  padding: 20px;
-  border-radius: 5px;
-  margin-right: 10px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-}
-
-.mail {
-  background-color: white;
-  padding: 20px;
-  border-radius: 5px;
-  margin-left: 10px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-}
-
-.formulario {
-  margin-top: 20px;
-}
-
-.formulario label {
-  display: block;
-  margin-bottom: 5px;
-}
-
-.formulario input,
-.formulario textarea {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-.formulario input[type="submit"] {
- background-color: #e21212;
-  color: white;
-  border: none;
-  cursor: pointer;
-}
-
-.formulario input[type="submit"]:hover {
-  background-color: darken($color-5, 10%);
-}
-
-.asesoramiento {
-  margin-top: 20px;
-  text-align: center;
-}
-
-.footer {
-  margin-top: 20px;
-  text-align: center;
-  color: #999;
-}
+  
+  
+  footer {
+    background-color: $secondary-color;
+   
+}  
