@@ -31,6 +31,8 @@
 
     h1 {margin-top: 50px;}
   }
+
+  
   
   nav {
     background-color: $secondary-color;
@@ -58,13 +60,57 @@
     }
   }
   
+  .cajon .listado li {
+    background: linear-gradient(#f1a64f, #ffd1dc); 
+    padding: 5px;
+    border-radius: 10px; 
+  }
+  
+
+  @keyframes subtle-glow {
+    0% {
+      transform: translateX(0);
+      opacity: 0.5; /* Ajusta el nivel de transparencia */
+    }
+    50% {
+      transform: translateX(100%);
+      opacity: 0.2; /* Ajusta el nivel de transparencia */
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 0.5; /* Ajusta el nivel de transparencia */
+    }
+  }
+  
   .contactos {
     background-color: $primary-color;
     color: #fff;
     text-align: center;
     padding: 20px;
     margin-top: 20px;
+    position: relative;
+    overflow: hidden;
+    
+    h4 {
+      margin: 0 auto;
+      max-width: 200px;
+      position: relative;
+      z-index: 1; 
+      
+      &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: -80%; 
+        width: 100%;
+        height: 100%;
+        background-image: linear-gradient(rgb(38, 180, 38), rgba(0, 255, 0, 0.2));
+
+        animation: subtle-glow 3s linear infinite; /* Ajusta la duración y el tipo de animación */
+      }
+    }
   }
+  
   
   .flex-contactos {
     display: flex;
@@ -84,9 +130,16 @@
         width: 20px;
         height: 20px;
         margin-right: 5px;
+        margin-left: -10px;
+      }
+      span {
+        margin-left: -40px; 
       }
     }
   }
+
+  
+  
   
   .flex-email {
     display: flex;
@@ -101,7 +154,9 @@
       color: #fff;
       margin-bottom: 10px;
 
-      span {background-color: #ffb71d;
+      span {background: linear-gradient(#ff9100, #dfb362); 
+        padding: 5px;
+        border-radius: 10px; 
       color: #000;}
     }
   
