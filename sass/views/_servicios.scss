@@ -11,18 +11,6 @@
   $color-verde: #00FF00;
   
 h3{margin-top: 500px;
-
-}
-
-body {
-  background-color: $color-rosa;
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-image: url(https://img.freepik.com/foto-gratis/piedras-peso-circular-gimnasio-deportivo_114579-12636.jpg?w=740&t=st=1686276485~exp=1686277085~hmac=1d19a1e4820e9caae912d8a2866e02d4173b3db34db5712375979f442a9e644e);
-  background-size: cover;
-  background-position: center;
-  opacity: 0.9;
 }
 
   
@@ -43,7 +31,8 @@ body {
         color: rgb(0, 0, 0);
         font-size: 24px;
         margin: 0;
-        margin-right: 400px;
+        margin-right: 500px;
+        text-align: center;
       }
     }
 
@@ -76,6 +65,9 @@ body {
     }
   }
   
+  body{background-image: url(https://lh3.googleusercontent.com/qeGeOvSYXAmOSv95j7jL6_Oc4jrBHuqzbs4n1VEdT5VJ3LhCxbzbKtMH2pnNgiXrK3zGIO10wgtM8_b5KM8IKK5Gir3fzC9GHBksHJs);
+    background-size: cover;}
+
   .flex-suscripcion {
     display: flex;
     justify-content: center;
@@ -112,6 +104,7 @@ body {
       margin-left: 5px;
     }
   }
+
   
   footer {
     background-color: #333;
